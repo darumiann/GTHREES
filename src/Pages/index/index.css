@@ -1,0 +1,18 @@
+@import url(../../Vendor/normalize.css);
+@import url(../../Vendor/Fonts/fonts.css);
+
+
+.body {
+  max-width: 1440px;
+  width: 100vw;
+  box-sizing: content-box;
+  margin: 0 auto 0 auto;
+}
+
+.main {
+  background-color: #efefef;
+  height: 1500px;
+  width: 100%;
+}
+
+

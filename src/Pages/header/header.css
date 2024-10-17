@@ -1,0 +1,2244 @@
+/* ШАПКА САЙТА */
+/* Десктоп 1440+ */
+.header {
+  max-width: 1440px;
+  width: 100%;
+  height: 79px;
+  background-color: #ffffff;  
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.header__logo {
+  height: 59px;
+  margin: 10px 40px 10px 40px;
+}
+  
+.header__logo_img {
+  max-width: 200px;
+  height: 59px;
+}
+  
+.header__nav-bar {    
+  width: fit-content;
+  height: 59px;
+  margin: 10px 0 10px auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.header__nav-item {
+  width: fit-content;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+  
+.header__nav-item_link {
+  width: fit-content;
+  height: 50px;
+  margin: 0 50px 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-decoration: none;
+}
+  
+.header__nav-item_link_submenu {
+  margin: 0;
+}
+ 
+.header__nav-item_text {
+  width: fit-content;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #111827;
+  text-decoration: none;
+}
+  
+.header__nav-item_submenu-button {
+  width: 8px;
+  height: 5px;
+  margin: 0 0 0 5px;
+}
+  
+.header__button {
+  width: 240px;
+  height: 79px;
+  margin: 0 40px 0 40px;
+  padding: 0 32px 0 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #003B77;
+  border: 0px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+.header__burger {
+  width: 48px;
+  height: 26px;
+  margin: 0 40px 0 0;
+  cursor: pointer;
+}
+  
+.header__mobile-logo {
+  display: none;
+}
+  
+.header__mobile-logo_img {
+  width: 28px;
+  display: none;
+}
+  
+.header__mobile-burger {
+  width: 24px;
+  display: none;
+  cursor: pointer;
+}
+  
+.header__button-arrow {
+  display: none;
+}
+  
+/* 1200 - 1440 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .header {
+    position: fixed;
+  }
+
+  .header__logo {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+      
+  .header__logo_img {
+    max-width: 200px;
+  }
+      
+  .header__nav-item_link {
+    margin-right: 25px;
+  }
+      
+  .header__burger {
+    margin-right: 20px;
+  }
+
+  .header__button {
+    width: 240px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+  
+/* 960 - 1200 */
+@media (min-width: 960px) and (max-width: 1199px) {
+  .header {
+    max-width: 1199px;
+    height: 69px;
+    position: fixed;
+  }
+  
+  .header__logo {
+    height: 49px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+       
+  .header__logo_img {
+    height: 49px;
+  }
+        
+  .header__nav-bar {
+    height: 49px;
+  }
+        
+  .header__nav-item_text {
+    font-size: 14px;
+  }
+  
+  .header__nav-item_link {
+    height: 69px;
+    margin-right: 15px;
+  }
+      
+  .header__nav-item_submenu-button {
+    width: 6px;
+    margin-left: 5px;
+  }
+        
+  .header__button {
+    width: 200px;
+    height: 69px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+        
+  .header__burger {
+    width: 38px;
+    height: 20px;
+    margin-right: 20px;
+  }
+}
+  
+/* 640 - 960 */
+@media (min-width: 640px) and (max-width: 959px) {
+  .header {
+    max-width: 959px;
+    height: 69px;
+    position: unset;
+  }
+      
+  .header__logo {
+    display: none;
+  }
+          
+  .header__logo_img {
+    display: none;
+  }
+            
+  .header__nav-bar {
+    display: none;
+  }
+        
+  .header__nav-item_link {
+    display: none;
+  }
+            
+  .header__nav-item_text {
+    display: none;
+  }
+              
+  .header__nav-item_submenu-button {
+    display: none;
+  }
+              
+  .header__button {
+    width: 200px;
+    height: 69px;
+    margin-right: 20px;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+                
+  .header__burger {
+    display: none;
+  }
+              
+  .header__mobile-logo {
+    width: 49px;
+    height: 49px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: block;
+  }
+              
+  .header__mobile-logo_img {
+    width: 49px;
+    height: 49px;
+    display: block;
+  }
+                
+  .header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-right: 20px;
+    display: block;
+  }
+  
+  .header__button-arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    display: block;
+  }
+}
+  
+/* 480 - 640 */
+@media (min-width: 480px) and (max-width: 639px) {
+  .header {
+    max-width: 639px;
+    height: 49px;
+    position: unset;
+  }
+          
+  .header__logo {
+    display: none;
+  }
+              
+  .header__logo_img {
+    display: none;
+  }
+                  
+  .header__nav-bar {
+    display: none;
+  }
+              
+  .header__nav-item_link {
+    display: none;
+  }
+                 
+  .header__nav-item_text {
+    display: none;
+  }
+                  
+  .header__nav-item_submenu-button {
+    display: none;
+  }
+                    
+  .header__button {
+    width: 200px;
+    height: 49px;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+                    
+  .header__burger {
+    display: none;
+  }
+                    
+  .header__mobile-logo {
+    width: 29px;
+    height: 29px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+  }
+                  
+  .header__mobile-logo_img {
+    width: 29px;
+    height: 29px;
+    display: block;
+  }
+                  
+  .header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-right: 20px;
+    display: block;
+  }
+      
+  .header__button-arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    display: block;
+  }
+}
+  
+/* 320 - 480 */
+@media (max-width: 479px) {
+  .header {
+    min-width: 320px;
+    max-width: 479px;
+    height: 49px;
+    position: unset;
+  }
+              
+  .header__logo {
+    display: none;
+  }
+                
+  .header__logo_img {
+    display: none;
+  }
+                    
+  .header__nav-bar {
+    display: none;
+  }
+                
+  .header__nav-item_link {
+    display: none;
+  }
+                    
+  .header__nav-item_text {
+    display: none;
+  }
+                       
+  .header__nav-item_submenu-button {
+    display: none;
+  }
+                        
+  .header__button {
+    width: 200px;
+    height: 49px;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+                       
+  .header__burger {
+    display: none;
+  }
+                      
+  .header__mobile-logo {
+    width: 29px;
+    height: 29px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+  }
+                     
+  .header__mobile-logo_img {
+    width: 29px;
+    height: 29px;
+    display: block;
+  }
+                        
+  .header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-right: 20px;
+    display: block;
+  }
+          
+  .header__button-arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    display: block;
+  }
+}
+
+/* ШАПКА САЙТА ПОСЛЕ СКРОЛЛА  */
+.mobile-scrolled-header {
+  min-width: 1440px;
+  max-width: 1440px;
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+}
+  
+.mobile-scrolled-header__mobile-burger {
+  display: none;
+}
+  
+.mobile-scrolled-header__logo {
+  display: none;
+}
+  
+.mobile-scrolled-header__logo_img {
+  display: none;
+}
+  
+.mobile-scrolled-header__phone {
+  display: none;
+}
+  
+.mobile-scrolled-header__phone_img {
+  display: none;
+}
+
+/* 1200 - 1440 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .mobile-scrolled-header {
+    min-width: 1200px;
+    max-width: 1439px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+  }
+      
+  .mobile-scrolled-header__mobile-burger {
+    display: none;
+  }
+        
+  .mobile-scrolled-header__logo {
+    display: none;
+  }
+        
+  .mobile-scrolled-header__logo_img {
+    display: none;
+  }
+        
+  .mobile-scrolled-header__phone {
+    display: none;
+  }
+        
+  .mobile-scrolled-header__phone_img {
+    display: none;
+  }
+}
+  
+@media (min-width: 960px) and (max-width: 1199px) {
+  .mobile-scrolled-header {
+    min-width: 960px;
+    max-width: 1199px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+  }
+         
+  .mobile-scrolled-header__mobile-burger {
+    display: none;
+  }
+            
+  .mobile-scrolled-header__logo {
+    display: none;
+  }
+            
+  .mobile-scrolled-header__logo_img {
+    display: none;
+  }
+            
+  .mobile-scrolled-header__phone {
+    display: none;
+  }
+            
+  .mobile-scrolled-header__phone_img {
+    display: none;
+  }
+}
+  
+@media (min-width: 640px) and (max-width: 959px) {
+  .mobile-scrolled-header {
+    min-width: 640px;
+    max-width: 959px;
+    width: 100%;
+    height: 69px;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;  
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+  }
+    
+  .mobile-scrolled-header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                
+  .mobile-scrolled-header__logo {
+    height: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+                
+  .mobile-scrolled-header__logo_img {
+    height: 49px;
+    display: block;
+  }
+                
+  .mobile-scrolled-header__phone {
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                
+  .mobile-scrolled-header__phone_img {
+    width: 24px;
+    display: block;       
+  }
+}
+  
+/* 480 - 640 */
+@media (min-width: 480px) and (max-width: 639px) {
+  .mobile-scrolled-header {
+    min-width: 480px;
+    max-width: 639px;
+    width: 100%;
+    height: 49px;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;  
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+  }
+        
+  .mobile-scrolled-header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                    
+  .mobile-scrolled-header__logo {
+    height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+                    
+  .mobile-scrolled-header__logo_img {
+    height: 29px;
+    display: block;
+  }
+                    
+  .mobile-scrolled-header__phone {
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                    
+  .mobile-scrolled-header__phone_img {
+    width: 24px;
+    display: block;       
+  }
+}
+  
+/* 320 - 480 */
+@media (max-width: 479px) {
+  .mobile-scrolled-header {
+    min-width: 320px;
+    max-width: 639px;
+    width: 100%;
+    height: 49px;
+    display: block;
+    position: fixed;
+    background-color: #ffffff;  
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+  }
+            
+  .mobile-scrolled-header__mobile-burger {
+    width: 24px;
+    height: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                        
+  .mobile-scrolled-header__logo {
+    height: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+                        
+  .mobile-scrolled-header__logo_img {
+    height: 29px;
+    display: block;
+  }
+                        
+  .mobile-scrolled-header__phone {
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+                        
+  .mobile-scrolled-header__phone_img {
+    width: 24px;
+    display: block;       
+  }
+}
+
+/* РАСКРЫТОЕ МЕНЮ */
+.opened-menu {
+    position: relative;
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  background-color: #003B77;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 9999;
+}
+  
+.opened-menu__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+  
+.opened-menu__close-button {
+  width: 45px;
+  height: 45px;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+  
+.opened-menu__cards {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+  
+.cards__column1 {
+  width: calc(100% - 160px);
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+ 
+.cards__services {
+  width: 70%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+  
+.services__title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+ 
+.services__nav-bar-container {
+  width: 100%;
+  display: flex;
+}
+  
+.services__nav-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+  
+.services__nav-item {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+  
+.services__nav-item:last-child {
+  margin-bottom: 0px;
+}
+  
+.cards__company {
+  width: 30%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+  
+.company__title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.company__nav-bar-container {
+  width: 100%;
+  display: flex;
+}
+  
+.company__nav-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+  
+.company__nav-item {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+  
+.company__nav-item:last-child {
+  margin-bottom: 0px;
+}
+  
+.cards__line {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+    
+.cards__column2 {
+  width: calc(100% - 160px);
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+  
+.cards__contacts {
+  width: 70%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+  
+.contacts__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+  
+.contacts__title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.contacts__nav-bar-container {
+  width: 100%;
+  display: flex;
+}
+  
+.contacts__nav-bar-title_phone {
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__nav-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+  
+.contacts__nav-item {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+    
+.contacts__nav-item:nth-child(3) {
+  margin-bottom: 24px;
+}
+  
+.contacts__nav-item:last-child {
+  margin-bottom: 0px;
+}
+  
+.contacts__nav-bar-title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 46px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.cards__phoneAndMail {
+  width: 30%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+  
+.phoneAndMail__title {
+  width: 100%;
+  height: 34px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.phoneAndMail__nav-bar-container {
+  width: 100%;
+  display: flex;
+}
+  
+.phoneAndMail__nav-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+}
+  
+.phoneAndMail__nav-item {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+}
+    
+.phoneAndMail__nav-item:last-child {
+  margin-bottom: 0px;
+}
+  
+.phoneAndMail__nav-bar-title_phone {
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.phoneAndMail__nav-item_subtitle {
+  width: 100%;
+  margin: 0 40px 10px 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #99FF99;
+  text-decoration: none;
+  list-style: none;
+}
+  
+.phoneAndMail__nav-item_email {
+  margin: 0 40px 24px 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #D1D5DB;
+  text-decoration: none;
+  list-style: none;
+}
+ 
+.phoneAndMail__social-icons {
+  display: none;
+}
+
+.phoneAndMail__whatsapp {
+  display: none;
+}
+
+.phoneAndMail__whatsapp-icon {
+  display: none;
+}
+  
+.phoneAndMail__vyber {
+  display: none;
+}
+
+.phoneAndMail__vyber-icon {
+  display: none;
+}
+
+.phoneAndMail__skype {
+  display: none;
+}
+
+.phoneAndMail__skype-icon {
+  display: none;
+}
+
+.phoneAndMail__telegram {
+  display: none;
+}
+
+.phoneAndMail__telegram-icon {
+  display: none;
+}
+ 
+.phoneAndMail__social-links {
+  display: none;
+}
+
+.phoneAndMail__facebook {
+  display: none;
+}
+
+.phoneAndMail__instagram {
+  display: none;
+}
+
+.phoneAndMail__linkedin {
+  display: none;
+}
+
+/* 1200 - 1440 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .opened-menu__close-button {
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+  
+  .opened-menu__cards {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .cards__column1 {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .cards__services {
+    margin-right: 40px;
+  }
+  
+  .services__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .services__nav-bar {
+    font-size: 16px;
+  }
+  
+  .services__nav-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .cards__company {
+    margin-right: 20px;
+  }
+    
+  .company__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .company__nav-bar {
+    font-size: 16px;
+  }
+    
+  .company__nav-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+    
+  .cards__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+      
+  .cards__column2 {
+    width: calc(100% - 80px);
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+    
+  .cards__contacts {
+    margin-right: 20px;
+  }
+  
+  .contacts__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .contacts__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+    
+  .contacts__nav-bar {
+    font-size: 16px;
+  }
+    
+  .contacts__nav-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+      
+  .contacts__nav-item:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  
+  .contacts__nav-bar-title {
+    margin-bottom: 34px;
+    font-size: 16px;
+  }
+    
+  .cards__phoneAndMail {
+    margin-right: 20px;
+  }
+    
+  .phoneAndMail__title {
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .phoneAndMail__nav-bar {
+    font-size: 16px;
+  }
+    
+  .phoneAndMail__nav-item {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .phoneAndMail__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+    
+  .phoneAndMail__nav-item_subtitle {
+    margin: 0 20px 10px 0;
+    font-size: 16px;
+  }
+    
+  .phoneAndMail__nav-item_email {
+    margin: 0 20px 20px 0;
+    font-size: 16px;
+  }
+  
+  .phoneAndMail__social-icons {
+    display: none;
+  }
+    
+  .phoneAndMail__whatsapp {
+    display: none;
+  }
+    
+  .phoneAndMail__whatsapp-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__vyber {
+    display: none;
+  }
+    
+  .phoneAndMail__vyber-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__skype {
+    display: none;
+  }
+    
+  .phoneAndMail__skype-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__telegram {
+    display: none;
+  }
+    
+  .phoneAndMail__telegram-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__social-links {
+    display: none;
+  }
+    
+  .phoneAndMail__facebook {
+    display: none;
+  }
+    
+  .phoneAndMail__instagram {
+    display: none;
+  }
+    
+  .phoneAndMail__linkedin {
+    display: none;
+  }
+}
+  
+/* 960 - 1200 */
+@media (min-width: 960px) and (max-width: 1199px) {
+  .opened-menu__close-button {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+      
+  .opened-menu__cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+      
+  .cards__column1 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+      
+  .cards__services {
+    margin-right: 20px;
+  }
+      
+  .services__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+      
+  .services__nav-bar {
+    font-size: 14px;
+  }
+      
+  .services__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+      
+  .cards__company {
+    margin-right: 10px;
+  }
+        
+  .company__title {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+      
+  .company__nav-bar {
+    font-size: 14px;
+  }
+        
+  .company__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+        
+  .cards__line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+          
+  .cards__column2 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+        
+  .cards__contacts {
+    margin-right: 10px;
+  }
+      
+  .contacts__title {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+      
+  .contacts__nav-bar-title_phone {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+        
+  .contacts__nav-bar {
+    font-size: 14px;
+  }
+        
+  .contacts__nav-item {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+          
+  .contacts__nav-item:nth-child(3) {
+    margin-bottom: 10px;
+  }
+      
+  .contacts__nav-bar-title {
+    margin-bottom: 22px;
+    font-size: 14px;
+  }
+        
+  .cards__phoneAndMail {
+    margin-right: 10px;
+  }
+        
+  .phoneAndMail__title {
+    height: 26px;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+      
+  .phoneAndMail__nav-bar {
+    font-size: 14px;
+  }
+        
+  .phoneAndMail__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+      
+  .phoneAndMail__nav-bar-title_phone {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+        
+  .phoneAndMail__nav-item_subtitle {
+    margin: 0 10px 5px 0;
+    font-size: 14px;
+  }
+        
+  .phoneAndMail__nav-item_email {
+    margin: 0 10px 10px 0;
+    font-size: 14px;
+  }
+  
+  .phoneAndMail__social-icons {
+    display: none;
+  }
+    
+  .phoneAndMail__whatsapp {
+    display: none;
+  }
+    
+  .phoneAndMail__whatsapp-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__vyber {
+    display: none;
+  }
+    
+  .phoneAndMail__vyber-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__skype {
+    display: none;
+  }
+    
+  .phoneAndMail__skype-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__telegram {
+    display: none;
+  }
+    
+  .phoneAndMail__telegram-icon {
+    display: none;
+  }
+    
+  .phoneAndMail__social-links {
+    display: none;
+  }
+    
+  .phoneAndMail__facebook {
+    display: none;
+  }
+    
+  .phoneAndMail__instagram {
+    display: none;
+  }
+    
+  .phoneAndMail__linkedin {
+    display: none;
+  }
+}
+  
+/* 640 - 960 */
+@media (min-width: 640px) and (max-width: 959px) {
+  .opened-menu__close-button {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+          
+  .opened-menu__cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+          
+  .cards__column1 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+          
+  .cards__services {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+          
+  .services__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+          
+  .services__nav-bar {
+    font-size: 14px;
+  }
+          
+  .services__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+          
+  .cards__company {
+    width: 100%;
+    margin-right: 0px;
+  }
+            
+  .company__title {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+          
+  .company__nav-bar {
+    font-size: 14px;
+  }
+            
+  .company__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+            
+  .cards__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+              
+  .cards__column2 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+            
+  .cards__contacts {
+    width: 100%;
+    margin-right: 10px;
+  }
+          
+  .contacts__title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+          
+  .contacts__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+            
+  .contacts__nav-bar {
+    display: none;
+  }
+            
+  .contacts__nav-item {
+    display: none;
+  }
+              
+  .contacts__nav-item:nth-child(3) {
+    display: none;
+  }
+          
+  .contacts__nav-bar-title {
+    display: none;
+  }
+            
+  .cards__phoneAndMail {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+            
+  .phoneAndMail__title {
+    display: none;
+  }
+          
+  .phoneAndMail__nav-bar {
+    font-size: 14px;
+  }
+            
+  .phoneAndMail__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+          
+  .phoneAndMail__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+            
+  .phoneAndMail__nav-item_subtitle {
+    display: none;
+  }
+            
+  .phoneAndMail__nav-item_email {
+    display: none;
+  }
+  
+  .phoneAndMail__social-icons {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+    
+  .phoneAndMail__whatsapp {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+    
+  .phoneAndMail__whatsapp-icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+    
+  .phoneAndMail__vyber {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+    
+  .phoneAndMail__vyber-icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+    
+  .phoneAndMail__skype {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+    
+  .phoneAndMail__skype-icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+    
+  .phoneAndMail__telegram {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+  }
+    
+  .phoneAndMail__telegram-icon {
+    display: block;
+    width: 35px;
+    height: 35px;
+  }
+    
+  .phoneAndMail__social-links {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+    
+  .phoneAndMail__facebook {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+    
+  .phoneAndMail__instagram {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+    
+  .phoneAndMail__linkedin {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+}
+  
+/* 480 - 640 */
+@media (min-width: 480px) and (max-width: 639px) {
+  .opened-menu__close-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+              
+  .opened-menu__cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+              
+  .cards__column1 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+              
+  .cards__services {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+            
+  .services__nav-bar-container {
+    flex-direction: column;
+  }
+  
+  .services__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+              
+  .services__nav-bar {
+    font-size: 14px;
+    margin-bottom: 20px
+  }
+              
+  .services__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+              
+  .cards__company {
+    width: 100%;
+    margin-right: 0px;
+  }
+                
+  .company__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+              
+  .company__nav-bar {
+    font-size: 14px;
+  }
+                
+  .company__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+                
+  .cards__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+                  
+  .cards__column2 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+                
+  .cards__contacts {
+    width: 100%;
+    margin-right: 10px;
+  }
+              
+  .contacts__title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+              
+  .contacts__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                
+  .contacts__nav-bar {
+    display: none;
+  }
+                
+  .contacts__nav-item {
+    display: none;
+  }
+                  
+  .contacts__nav-item:nth-child(3) {
+    display: none;
+  }
+              
+  .contacts__nav-bar-title {
+    display: none;
+  }
+                
+  .cards__phoneAndMail {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+                
+  .phoneAndMail__title {
+    display: none;
+  }
+              
+  .phoneAndMail__nav-bar {
+    font-size: 14px;
+  }
+                
+  .phoneAndMail__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+              
+  .phoneAndMail__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                
+  .phoneAndMail__nav-item_subtitle {
+    display: none;
+  }
+                
+  .phoneAndMail__nav-item_email {
+    display: none;
+  }
+      
+  .phoneAndMail__social-icons {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+        
+  .phoneAndMail__whatsapp {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+        
+  .phoneAndMail__whatsapp-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+        
+  .phoneAndMail__vyber {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+        
+  .phoneAndMail__vyber-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+        
+  .phoneAndMail__skype {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+        
+  .phoneAndMail__skype-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+        
+  .phoneAndMail__telegram {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+        
+  .phoneAndMail__telegram-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+        
+  .phoneAndMail__social-links {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+        
+  .phoneAndMail__facebook {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+        
+  .phoneAndMail__instagram {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+        
+  .phoneAndMail__linkedin {
+    display: block;
+    margin-right: 35px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+}
+  
+/* 320 - 480 */
+@media (max-width: 479px) {
+  .opened-menu__close-button {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+                
+  .opened-menu__cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+                
+  .cards__column1 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+                
+  .cards__services {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .services__nav-bar-container {
+    flex-direction: column;
+  }
+                
+  .services__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                
+  .services__nav-bar {
+    font-size: 14px;
+    margin-bottom: 20px
+  }
+                
+  .services__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+                
+  .cards__company {
+    width: 100%;
+    margin-right: 0px;
+  }
+                  
+  .company__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                
+  .company__nav-bar {
+    font-size: 14px;
+  }
+                  
+  .company__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+                  
+  .cards__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+                    
+  .cards__column2 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+                  
+  .cards__contacts {
+    width: 100%;
+    margin-right: 10px;
+  }
+                
+  .contacts__title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                
+  .contacts__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                  
+  .contacts__nav-bar {
+    display: none;
+  }
+                  
+  .contacts__nav-item {
+    display: none;
+  }
+                    
+  .contacts__nav-item:nth-child(3) {
+    display: none;
+  }
+                
+  .contacts__nav-bar-title {
+    display: none;
+  }
+                  
+  .cards__phoneAndMail {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+                  
+  .phoneAndMail__title {
+    display: none;
+  }
+                
+  .phoneAndMail__nav-bar {
+    font-size: 14px;
+  }
+                  
+  .phoneAndMail__nav-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+                
+  .phoneAndMail__nav-bar-title_phone {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+                  
+  .phoneAndMail__nav-item_subtitle {
+    display: none;
+  }
+                  
+  .phoneAndMail__nav-item_email {
+    display: none;
+  }
+        
+  .phoneAndMail__social-icons {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+          
+  .phoneAndMail__whatsapp {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+          
+  .phoneAndMail__whatsapp-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+          
+  .phoneAndMail__vyber {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+          
+  .phoneAndMail__vyber-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+          
+  .phoneAndMail__skype {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+          
+  .phoneAndMail__skype-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+          
+  .phoneAndMail__telegram {
+    display: block;
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+  }
+          
+  .phoneAndMail__telegram-icon {
+    display: block;
+    width: 27px;
+    height: 27px;
+  }
+          
+  .phoneAndMail__social-links {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+          
+  .phoneAndMail__facebook {
+    display: block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+          
+  .phoneAndMail__instagram {
+    display: block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+          
+  .phoneAndMail__linkedin {
+    display: block;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+  }
+}
