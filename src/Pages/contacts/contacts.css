@@ -1,0 +1,657 @@
+@import url(../../Vendor/normalize.css);
+@import url(../../Vendor/Fonts/fonts.css);
+
+/* БЛОК №1 */
+/* Десктоп 1440+ */
+.block1 {
+  width: 100%;
+  margin: 79px 0 0 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.block1__content {
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 40px 0 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #003D6E;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block1__title-container {
+  width: calc(50% - 10px);
+  margin: 0 20px 0 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.block1__title-one {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.block1__button {
+  width: 100%;
+  margin: 30px 0 0 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  text-decoration: none; 
+  text-align: left;
+  cursor: pointer;
+}
+
+.block1__button-arrow {
+  width: 14px;
+  height: 14px;
+  margin: 0 0 0 10px;
+}
+
+.block1__social-links {
+  width: calc(50% - 10px);
+  margin: 0 40px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.block1__facebook {
+  width: fit-content;
+  margin: 0 60px 10px 0;
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+.block1__instagram {
+  width: fit-content;
+  margin: 0 60px 10px 0;
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+.block1__linkedin {
+  width: fit-content;
+  margin: 0 60px 10px 0;
+  text-align: right;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;  
+}
+
+.block1__social-icons {
+  min-width: 37px;
+  background-color: #012B56;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1__whatsapp {
+  width: 27px;
+  height: 27px;
+  margin: 10px 0 10px 0;
+  padding: 0;
+}
+
+.block1__vyber {
+  width: 27px;
+  height: 27px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.block1__skype {
+  width: 27px;
+  height: 27px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.block1__telegram {
+  width: 27px;
+  height: 27px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.block1__whatsapp-icon {
+  width: 27px;
+  height: 27px;
+  padding: 0;
+}
+
+.block1__vyber-icon {
+  width: 27px;
+  height: 27px;
+  padding: 0;
+}
+
+.block1__skype-icon {
+  width: 27px;
+  height: 27px;
+  padding: 0;
+}
+
+.block1__telegram-icon {
+  width: 27px;
+  height: 27px;
+  padding: 0;
+}
+
+/* 1200 - 1440 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .block1 {
+    margin: 79px 0 0 0;
+  }
+
+  .block1__title-container {
+    width: calc(50% - 10px);
+    margin: 0 20px 0 20px;
+  }
+
+  .block1__title-one {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .block1__button {
+    font-size: 16px;
+  }
+
+  .block1__social-links {
+    width: calc(50% - 10px);
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .block1__facebook {
+    margin: 0 50px 10px 0;
+    font-size: 14px;
+  }
+  
+  .block1__instagram {
+    margin: 0 50px 10px 0;
+    font-size: 14px;
+  }
+  
+  .block1__linkedin {
+    margin: 0 50px 10px 0;
+    font-size: 14px;  
+  }
+}
+
+/* 960 - 1200 */
+@media (min-width: 960px) and (max-width: 1199px) {
+  .block1 {
+    margin: 69px 0 0 0;
+  }
+
+  .block1__title-container {
+    width: calc(50% - 10px);
+    margin: 0 20px 0 20px;
+  }
+
+  .block1__title-one {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .block1__button {
+    margin: 20px 0 0 0;
+    font-size: 16px;
+  }
+
+  .block1__social-links {
+    width: calc(50% - 10px);
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .block1__facebook {
+    margin: 0 40px 10px 0;
+    font-size: 16px;
+  }
+  
+  .block1__instagram {
+    margin: 0 40px 10px 0;
+    font-size: 16px;
+  }
+  
+  .block1__linkedin {
+    margin: 0 40px 10px 0;
+    font-size: 16px; 
+  }
+
+  .block1__social-icons {
+    min-width: 32px;
+  }
+  
+  .block1__whatsapp {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__vyber {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__skype {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__telegram {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__whatsapp-icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__vyber-icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__skype-icon {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .block1__telegram-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* 640 - 960 */
+@media (min-width: 640px) and (max-width: 959px) {
+  .block1 {
+    margin: 0;
+  }
+
+  .block1__content {
+    padding: 20px 0 20px 0;
+  }
+
+  .block1__title-container {
+    width: calc(100% - 40px);
+    margin: 0 20px 0 20px;
+  }
+
+  .block1__title-one {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .block1__button {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+  }
+
+  .block1__social-links {
+    display: none;
+  }
+}
+
+/* 480 - 640 */
+@media (min-width: 480px) and (max-width: 639px) {
+  .block1 {
+    margin: 0;
+  }
+
+  .block1__content {
+    padding: 20px 0 20px 0;
+  }
+
+  .block1__title-container {
+    width: calc(100% - 40px);
+    margin: 0 20px 0 20px;
+  }
+
+  .block1__title-one {
+    width: 100%;
+    font-size: 34px;
+  }
+
+  .block1__button {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+  }
+
+  .block1__social-links {
+    display: none;
+  }
+}
+
+/* 320 - 480 */
+@media (max-width: 479px) {
+  .block1 {
+    min-width: 320px;
+    margin: 0;
+  }
+
+  .block1__title-container {
+    width: calc(100% - 40px);
+    margin: 0 20px 0 20px;
+  }
+
+  .block1__content {
+    padding: 20px 0 20px 0;
+  }
+
+  .block1__title-one {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .block1__button {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+  
+  .block1__button-arrow {
+    width: 12px;
+    height: 12px;
+    margin: 0 0 0 5px;
+  }
+
+  .block1__social-links {
+    display: none;
+  }
+}
+
+/* БЛОК С КОНТАКТАМИ В ФУТЕРЕ */
+/* Десктоп 1440+ */
+.footer__oficeinfo-container {
+  width: 100%;
+  height: auto;
+  margin: 0 0 40px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__ofice-belarus {
+  width: calc(50% - 10px);
+  height: auto;
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__ofice-belarus-title {
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__ofice-belarus-text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__ofice-russia {
+  width: calc(50% - 10px);
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__ofice-russia-title {
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__ofice-russia-text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* 1200 - 1440 */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .footer__ofice-belarus-title {
+    font-size: 22px;
+  }
+
+  .footer__ofice-russia-title {
+    font-size: 22px;
+  }
+
+  .footer__ofice-belarus-text {
+    font-size: 16px;
+  }
+
+  .footer__ofice-russia-text {
+    font-size: 16px;
+  }
+}
+
+/* 960 - 1200 */
+@media (min-width: 960px) and (max-width: 1199px) {
+  .footer__ofice-belarus-title {
+    font-size: 20px;
+  }
+
+  .footer__ofice-russia-title {
+    font-size: 20px;
+  }
+
+  .footer__ofice-belarus-text {
+    font-size: 16px;
+  }
+
+  .footer__ofice-russia-text {
+    font-size: 16px;
+  }
+}
+
+/* 640 - 960 */
+@media (min-width: 640px) and (max-width: 959px) {
+  .footer__oficeinfo-container {
+    margin: 0 0 20px 0;
+    flex-direction: column;
+  }
+
+  .footer__ofice-belarus {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer__ofice-russia {
+    width: 100%;
+  }
+
+  .footer__ofice-belarus-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-russia-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-belarus-text {
+    font-size: 16px;
+  }
+
+  .footer__ofice-russia-text {
+    font-size: 16px;
+  }
+}
+
+/* 480 - 640 */
+@media (min-width: 480px) and (max-width: 639px) {
+  .footer__oficeinfo-container {
+    margin: 0 0 20px 0;
+    flex-direction: column;
+  }
+
+  .footer__ofice-belarus {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer__ofice-russia {
+    width: 100%;
+  }
+
+  .footer__ofice-belarus-title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-russia-title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-belarus-text {
+    font-size: 16px;
+  }
+
+  .footer__ofice-russia-text {
+    font-size: 16px;
+  }
+}
+
+/* 320 - 480 */
+@media (max-width: 479px) {
+  .footer__oficeinfo-container {
+    margin: 0 0 20px 0;
+    flex-direction: column;
+  }
+
+  .footer__ofice-belarus {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .footer__ofice-russia {
+    width: 100%;
+  }
+
+  .footer__ofice-belarus-title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-russia-title {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+  }
+
+  .footer__ofice-belarus-text {
+    font-size: 14px;
+  }
+
+  .footer__ofice-russia-text {
+    font-size: 14px;
+  }
+}
